@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31C2CE650E51CBA5E1204F80 /* Pods_Tempus_Fugit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F78C261DFE59C3F3B48870 /* Pods_Tempus_Fugit.framework */; };
+		570B13091CE3B17B000EB87C /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 570B13081CE3B17B000EB87C /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		579743D51CE189E500DE5725 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579A06091CD8E4E400C8CC0C /* RestApiManager.swift */; };
+		579743D61CE189EA00DE5725 /* FlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579743D01CDD4AEC00DE5725 /* FlightViewController.swift */; };
+		579A060C1CD8ECC200C8CC0C /* InputFlightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579A060B1CD8ECC200C8CC0C /* InputFlightVC.swift */; };
+		57CD24F01CC907A200DF94BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CD24EF1CC907A200DF94BC /* AppDelegate.swift */; };
+		57CD24F51CC907A200DF94BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CD24F31CC907A200DF94BC /* Main.storyboard */; };
+		57CD24FA1CC907A200DF94BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CD24F81CC907A200DF94BC /* LaunchScreen.storyboard */; };
+		57CD25051CC907A200DF94BC /* Tempus_FugitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CD25041CC907A200DF94BC /* Tempus_FugitTests.swift */; };
+		57CD25101CC907A200DF94BC /* Tempus_FugitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CD250F1CC907A200DF94BC /* Tempus_FugitUITests.swift */; };
+		57F882391CE2AF92005AD074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CD24F61CC907A200DF94BC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		570B130A1CE3B17B000EB87C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CD24E41CC907A200DF94BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 570B13071CE3B17B000EB87C;
+			remoteInfo = "Watch Extension";
+		};
+		57CD25011CC907A200DF94BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CD24E41CC907A200DF94BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CD24EB1CC907A200DF94BC;
+			remoteInfo = "Tempus Fugit";
+		};
+		57CD250C1CC907A200DF94BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CD24E41CC907A200DF94BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CD24EB1CC907A200DF94BC;
+			remoteInfo = "Tempus Fugit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		570B13201CE3B17B000EB87C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				570B13091CE3B17B000EB87C /* Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570B13221CE3B17B000EB87C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08F78C261DFE59C3F3B48870 /* Pods_Tempus_Fugit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tempus_Fugit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27865F3578F1253556CB146A /* Pods-Tempus Fugit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tempus Fugit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tempus Fugit/Pods-Tempus Fugit.release.xcconfig"; sourceTree = "<group>"; };
+		3B089F1857136CE7A40DDE30 /* Pods-Tempus Fugit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tempus Fugit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tempus Fugit/Pods-Tempus Fugit.debug.xcconfig"; sourceTree = "<group>"; };
+		570B12FC1CE3B17B000EB87C /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		570B13081CE3B17B000EB87C /* Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		579743D01CDD4AEC00DE5725 /* FlightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightViewController.swift; sourceTree = "<group>"; };
+		579A06091CD8E4E400C8CC0C /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = SOURCE_ROOT; };
+		579A060B1CD8ECC200C8CC0C /* InputFlightVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputFlightVC.swift; sourceTree = "<group>"; };
+		57CD24EC1CC907A200DF94BC /* Tempus Fugit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tempus Fugit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CD24EF1CC907A200DF94BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57CD24F41CC907A200DF94BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57CD24F61CC907A200DF94BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57CD24F91CC907A200DF94BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57CD24FB1CC907A200DF94BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CD25001CC907A200DF94BC /* Tempus FugitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tempus FugitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CD25041CC907A200DF94BC /* Tempus_FugitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tempus_FugitTests.swift; sourceTree = "<group>"; };
+		57CD25061CC907A200DF94BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CD250B1CC907A200DF94BC /* Tempus FugitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tempus FugitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CD250F1CC907A200DF94BC /* Tempus_FugitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tempus_FugitUITests.swift; sourceTree = "<group>"; };
+		57CD25111CC907A200DF94BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		570B13051CE3B17B000EB87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CD24E91CC907A200DF94BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C2CE650E51CBA5E1204F80 /* Pods_Tempus_Fugit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CD24FD1CC907A200DF94BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CD25081CC907A200DF94BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1797BC66195F7FFF199E36EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08F78C261DFE59C3F3B48870 /* Pods_Tempus_Fugit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301523A712E0735A2D10EB9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B089F1857136CE7A40DDE30 /* Pods-Tempus Fugit.debug.xcconfig */,
+				27865F3578F1253556CB146A /* Pods-Tempus Fugit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57CD24E31CC907A200DF94BC = {
+			isa = PBXGroup;
+			children = (
+				57CD24EE1CC907A200DF94BC /* Tempus Fugit */,
+				57CD25031CC907A200DF94BC /* Tempus FugitTests */,
+				57CD250E1CC907A200DF94BC /* Tempus FugitUITests */,
+				57CD24ED1CC907A200DF94BC /* Products */,
+				301523A712E0735A2D10EB9D /* Pods */,
+				1797BC66195F7FFF199E36EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57CD24ED1CC907A200DF94BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57CD24EC1CC907A200DF94BC /* Tempus Fugit.app */,
+				57CD25001CC907A200DF94BC /* Tempus FugitTests.xctest */,
+				57CD250B1CC907A200DF94BC /* Tempus FugitUITests.xctest */,
+				570B12FC1CE3B17B000EB87C /* Watch.app */,
+				570B13081CE3B17B000EB87C /* Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57CD24EE1CC907A200DF94BC /* Tempus Fugit */ = {
+			isa = PBXGroup;
+			children = (
+				579A06091CD8E4E400C8CC0C /* RestApiManager.swift */,
+				57CD24EF1CC907A200DF94BC /* AppDelegate.swift */,
+				57CD24F31CC907A200DF94BC /* Main.storyboard */,
+				579743D01CDD4AEC00DE5725 /* FlightViewController.swift */,
+				57CD24F61CC907A200DF94BC /* Assets.xcassets */,
+				57CD24F81CC907A200DF94BC /* LaunchScreen.storyboard */,
+				57CD24FB1CC907A200DF94BC /* Info.plist */,
+				579A060B1CD8ECC200C8CC0C /* InputFlightVC.swift */,
+			);
+			path = "Tempus Fugit";
+			sourceTree = "<group>";
+		};
+		57CD25031CC907A200DF94BC /* Tempus FugitTests */ = {
+			isa = PBXGroup;
+			children = (
+				57CD25041CC907A200DF94BC /* Tempus_FugitTests.swift */,
+				57CD25061CC907A200DF94BC /* Info.plist */,
+			);
+			path = "Tempus FugitTests";
+			sourceTree = "<group>";
+		};
+		57CD250E1CC907A200DF94BC /* Tempus FugitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57CD250F1CC907A200DF94BC /* Tempus_FugitUITests.swift */,
+				57CD25111CC907A200DF94BC /* Info.plist */,
+			);
+			path = "Tempus FugitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		570B12FB1CE3B17B000EB87C /* Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570B13211CE3B17B000EB87C /* Build configuration list for PBXNativeTarget "Watch" */;
+			buildPhases = (
+				570B12FA1CE3B17B000EB87C /* Resources */,
+				570B13201CE3B17B000EB87C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				570B130B1CE3B17B000EB87C /* PBXTargetDependency */,
+			);
+			name = Watch;
+			productName = Watch;
+			productReference = 570B12FC1CE3B17B000EB87C /* Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		570B13071CE3B17B000EB87C /* Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570B131F1CE3B17B000EB87C /* Build configuration list for PBXNativeTarget "Watch Extension" */;
+			buildPhases = (
+				570B13041CE3B17B000EB87C /* Sources */,
+				570B13051CE3B17B000EB87C /* Frameworks */,
+				570B13061CE3B17B000EB87C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Extension";
+			productName = "Watch Extension";
+			productReference = 570B13081CE3B17B000EB87C /* Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		57CD24EB1CC907A200DF94BC /* Tempus Fugit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CD25141CC907A200DF94BC /* Build configuration list for PBXNativeTarget "Tempus Fugit" */;
+			buildPhases = (
+				20415795AC4FE2D82498D3A9 /* 📦 Check Pods Manifest.lock */,
+				57CD24E81CC907A200DF94BC /* Sources */,
+				57CD24E91CC907A200DF94BC /* Frameworks */,
+				57CD24EA1CC907A200DF94BC /* Resources */,
+				0208ED77AD2CF64D63C83A0D /* 📦 Embed Pods Frameworks */,
+				925D83A53881C4DDDF4619BD /* 📦 Copy Pods Resources */,
+				570B13221CE3B17B000EB87C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tempus Fugit";
+			productName = "Tempus Fugit";
+			productReference = 57CD24EC1CC907A200DF94BC /* Tempus Fugit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57CD24FF1CC907A200DF94BC /* Tempus FugitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CD25171CC907A200DF94BC /* Build configuration list for PBXNativeTarget "Tempus FugitTests" */;
+			buildPhases = (
+				57CD24FC1CC907A200DF94BC /* Sources */,
+				57CD24FD1CC907A200DF94BC /* Frameworks */,
+				57CD24FE1CC907A200DF94BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CD25021CC907A200DF94BC /* PBXTargetDependency */,
+			);
+			name = "Tempus FugitTests";
+			productName = "Tempus FugitTests";
+			productReference = 57CD25001CC907A200DF94BC /* Tempus FugitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57CD250A1CC907A200DF94BC /* Tempus FugitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CD251A1CC907A200DF94BC /* Build configuration list for PBXNativeTarget "Tempus FugitUITests" */;
+			buildPhases = (
+				57CD25071CC907A200DF94BC /* Sources */,
+				57CD25081CC907A200DF94BC /* Frameworks */,
+				57CD25091CC907A200DF94BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CD250D1CC907A200DF94BC /* PBXTargetDependency */,
+			);
+			name = "Tempus FugitUITests";
+			productName = "Tempus FugitUITests";
+			productReference = 57CD250B1CC907A200DF94BC /* Tempus FugitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57CD24E41CC907A200DF94BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrew Loutfi";
+				TargetAttributes = {
+					570B12FB1CE3B17B000EB87C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8LRDD7BY33;
+					};
+					570B13071CE3B17B000EB87C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8LRDD7BY33;
+					};
+					57CD24EB1CC907A200DF94BC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8LRDD7BY33;
+					};
+					57CD24FF1CC907A200DF94BC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8LRDD7BY33;
+						TestTargetID = 57CD24EB1CC907A200DF94BC;
+					};
+					57CD250A1CC907A200DF94BC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8LRDD7BY33;
+						TestTargetID = 57CD24EB1CC907A200DF94BC;
+					};
+				};
+			};
+			buildConfigurationList = 57CD24E71CC907A200DF94BC /* Build configuration list for PBXProject "Tempus Fugit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57CD24E31CC907A200DF94BC;
+			productRefGroup = 57CD24ED1CC907A200DF94BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57CD24EB1CC907A200DF94BC /* Tempus Fugit */,
+				57CD24FF1CC907A200DF94BC /* Tempus FugitTests */,
+				57CD250A1CC907A200DF94BC /* Tempus FugitUITests */,
+				570B12FB1CE3B17B000EB87C /* Watch */,
+				570B13071CE3B17B000EB87C /* Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		570B12FA1CE3B17B000EB87C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570B13061CE3B17B000EB87C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CD24EA1CC907A200DF94BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CD24FA1CC907A200DF94BC /* LaunchScreen.storyboard in Resources */,
+				57F882391CE2AF92005AD074 /* Assets.xcassets in Resources */,
+				57CD24F51CC907A200DF94BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CD24FE1CC907A200DF94BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CD25091CC907A200DF94BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0208ED77AD2CF64D63C83A0D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tempus Fugit/Pods-Tempus Fugit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20415795AC4FE2D82498D3A9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		925D83A53881C4DDDF4619BD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tempus Fugit/Pods-Tempus Fugit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		570B13041CE3B17B000EB87C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CD24E81CC907A200DF94BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579743D61CE189EA00DE5725 /* FlightViewController.swift in Sources */,
+				579743D51CE189E500DE5725 /* RestApiManager.swift in Sources */,
+				579A060C1CD8ECC200C8CC0C /* InputFlightVC.swift in Sources */,
+				57CD24F01CC907A200DF94BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CD24FC1CC907A200DF94BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CD25051CC907A200DF94BC /* Tempus_FugitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CD25071CC907A200DF94BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CD25101CC907A200DF94BC /* Tempus_FugitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		570B130B1CE3B17B000EB87C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 570B13071CE3B17B000EB87C /* Watch Extension */;
+			targetProxy = 570B130A1CE3B17B000EB87C /* PBXContainerItemProxy */;
+		};
+		57CD25021CC907A200DF94BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57CD24EB1CC907A200DF94BC /* Tempus Fugit */;
+			targetProxy = 57CD25011CC907A200DF94BC /* PBXContainerItemProxy */;
+		};
+		57CD250D1CC907A200DF94BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57CD24EB1CC907A200DF94BC /* Tempus Fugit */;
+			targetProxy = 57CD250C1CC907A200DF94BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57CD24F31CC907A200DF94BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CD24F41CC907A200DF94BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57CD24F81CC907A200DF94BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CD24F91CC907A200DF94BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		570B131B1CE3B17B000EB87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Tempus-Fugit.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		570B131C1CE3B17B000EB87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Tempus-Fugit.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		570B131D1CE3B17B000EB87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Tempus-Fugit.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		570B131E1CE3B17B000EB87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Tempus-Fugit.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		57CD25121CC907A200DF94BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57CD25131CC907A200DF94BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57CD25151CC907A200DF94BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B089F1857136CE7A40DDE30 /* Pods-Tempus Fugit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tempus Fugit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Tempus-Fugit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57CD25161CC907A200DF94BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27865F3578F1253556CB146A /* Pods-Tempus Fugit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tempus Fugit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Tempus-Fugit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57CD25181CC907A200DF94BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tempus FugitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Tempus-FugitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tempus Fugit.app/Tempus Fugit";
+			};
+			name = Debug;
+		};
+		57CD25191CC907A200DF94BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tempus FugitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Tempus-FugitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tempus Fugit.app/Tempus Fugit";
+			};
+			name = Release;
+		};
+		57CD251B1CC907A200DF94BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tempus FugitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Tempus-FugitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tempus Fugit";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		57CD251C1CC907A200DF94BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tempus FugitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Tempus-FugitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tempus Fugit";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		570B131F1CE3B17B000EB87C /* Build configuration list for PBXNativeTarget "Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570B131D1CE3B17B000EB87C /* Debug */,
+				570B131E1CE3B17B000EB87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		570B13211CE3B17B000EB87C /* Build configuration list for PBXNativeTarget "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570B131B1CE3B17B000EB87C /* Debug */,
+				570B131C1CE3B17B000EB87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57CD24E71CC907A200DF94BC /* Build configuration list for PBXProject "Tempus Fugit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CD25121CC907A200DF94BC /* Debug */,
+				57CD25131CC907A200DF94BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CD25141CC907A200DF94BC /* Build configuration list for PBXNativeTarget "Tempus Fugit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CD25151CC907A200DF94BC /* Debug */,
+				57CD25161CC907A200DF94BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CD25171CC907A200DF94BC /* Build configuration list for PBXNativeTarget "Tempus FugitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CD25181CC907A200DF94BC /* Debug */,
+				57CD25191CC907A200DF94BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CD251A1CC907A200DF94BC /* Build configuration list for PBXNativeTarget "Tempus FugitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CD251B1CC907A200DF94BC /* Debug */,
+				57CD251C1CC907A200DF94BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57CD24E41CC907A200DF94BC /* Project object */;
+}

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tempus Fugit/InputFlightVC.swift"
+            timestampString = "484527785.48843"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "InputFlightVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tempus Fugit/InputFlightVC.swift"
+            timestampString = "484527785.48843"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "textFieldDidEndEditing(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tempus Fugit/InputFlightVC.swift"
+            timestampString = "484583789.822485"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "InputFlightVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tempus Fugit/InputFlightVC.swift"
+            timestampString = "484535584.518711"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "InputFlightVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tempus Fugit/InputFlightVC.swift"
+            timestampString = "484535584.518711"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "InputFlightVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tempus Fugit/FlightViewController.swift"
+            timestampString = "484619685.566224"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "FlightViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tempus Fugit/FlightViewController.swift"
+            timestampString = "484619685.566224"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "FlightViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.FlightViewController.gate.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/FlightViewController.swift"
+                  timestampString = "484603971.873253"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.FlightViewController.gate.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/FlightViewController.swift"
+                  timestampString = "484603971.873511"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.FlightViewController.gate.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/FlightViewController.swift"
+                  timestampString = "484603971.87363"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.FlightViewController.init (Tempus_Fugit.FlightViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Tempus_Fugit.FlightViewController"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/FlightViewController.swift"
+                  timestampString = "484603971.873738"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.FlightViewController.init (Tempus_Fugit.FlightViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Tempus_Fugit.FlightViewController&gt;"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/FlightViewController.swift"
+                  timestampString = "484603971.873842"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "294">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tempus Fugit/FlightViewController.swift"
+            timestampString = "484619685.566224"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "FlightViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.FlightViewController.destination.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/FlightViewController.swift"
+                  timestampString = "484601333.071024"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.FlightViewController.destination.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/FlightViewController.swift"
+                  timestampString = "484601333.071283"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.FlightViewController.destination.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/FlightViewController.swift"
+                  timestampString = "484601333.071467"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.FlightViewController.init (Tempus_Fugit.FlightViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Tempus_Fugit.FlightViewController"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/FlightViewController.swift"
+                  timestampString = "484601333.07165"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "235">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.FlightViewController.init (Tempus_Fugit.FlightViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Tempus_Fugit.FlightViewController&gt;"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/FlightViewController.swift"
+                  timestampString = "484601333.071825"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "138">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tempus Fugit/InputFlightVC.swift"
+            timestampString = "484603961.289467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "InputFlightVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.InputFlightVC.flightNumber.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/InputFlightVC.swift"
+                  timestampString = "484603961.291679"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.InputFlightVC.flightNumber.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/InputFlightVC.swift"
+                  timestampString = "484603961.292109"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.InputFlightVC.flightNumber.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/InputFlightVC.swift"
+                  timestampString = "484603961.292387"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.InputFlightVC.init (Tempus_Fugit.InputFlightVC.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Tempus_Fugit.InputFlightVC"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/InputFlightVC.swift"
+                  timestampString = "484603961.292617"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tempus_Fugit.InputFlightVC.init (Tempus_Fugit.InputFlightVC.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Tempus_Fugit.InputFlightVC&gt;"
+                  moduleName = "Tempus Fugit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewLoutfi/Desktop/Tempus%20Fugit/Tempus%20Fugit/InputFlightVC.swift"
+                  timestampString = "484603961.292737"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tempus Fugit/FlightViewController.swift"
+            timestampString = "484619685.566224"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "FlightViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

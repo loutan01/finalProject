@@ -1,0 +1,6 @@
+framework module Pods_Tempus_Fugit {
+  umbrella header "Pods-Tempus Fugit-umbrella.h"
+
+  export *
+  module * { export * }
+}

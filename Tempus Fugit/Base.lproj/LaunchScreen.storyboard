@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="iwp-TB-SBu">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EOx-pN-pl7">
+            <objects>
+                <viewController id="iwp-TB-SBu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SQ8-Dd-hAP"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ogp-Ei-HvU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k8Q-JU-IMq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2016 Andrew Loutfi. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="R2Q-oC-LfT">
+                                <rect key="frame" x="20" y="559" width="560" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="f8z-SQ-zA7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tempus Fugit" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="UWK-Zn-s35">
+                                <rect key="frame" x="20" y="180" width="560" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="lAf-4h-wW7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="54"/>
+                                <color key="textColor" red="0.098039217293262482" green="0.098039217293262482" blue="0.098039217293262482" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="q7w-kr-NX6">
+                                <rect key="frame" x="180" y="348" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="M7n-q1-2ji"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="R2Q-oC-LfT" firstAttribute="centerX" secondItem="q7w-kr-NX6" secondAttribute="centerX" id="1KK-UE-8sk"/>
+                            <constraint firstAttribute="bottom" secondItem="R2Q-oC-LfT" secondAttribute="bottom" constant="20" symbolic="YES" id="JL9-U2-5uq"/>
+                            <constraint firstItem="UWK-Zn-s35" firstAttribute="leading" secondItem="k8Q-JU-IMq" secondAttribute="leadingMargin" id="O04-Mh-oUB"/>
+                            <constraint firstItem="UWK-Zn-s35" firstAttribute="top" secondItem="SQ8-Dd-hAP" secondAttribute="bottom" constant="160" id="fYu-77-Nfj"/>
+                            <constraint firstItem="R2Q-oC-LfT" firstAttribute="leading" secondItem="UWK-Zn-s35" secondAttribute="leading" id="i8h-Ic-yW0"/>
+                            <constraint firstItem="UWK-Zn-s35" firstAttribute="trailing" secondItem="R2Q-oC-LfT" secondAttribute="trailing" id="tsy-W5-Nra"/>
+                            <constraint firstItem="R2Q-oC-LfT" firstAttribute="trailing" secondItem="k8Q-JU-IMq" secondAttribute="trailingMargin" id="v2v-f7-dz5"/>
+                            <constraint firstItem="R2Q-oC-LfT" firstAttribute="top" secondItem="q7w-kr-NX6" secondAttribute="bottom" constant="83" id="yzh-dJ-44p"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WYB-bw-vA4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="128" height="128"/>
+    </resources>
+</document>
